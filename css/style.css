@@ -1,0 +1,65 @@
+html {
+	height: 100%;
+}
+
+body{ font: normal normal 13px/13px Tahoma, Arial, Helvetica, Verdana, sans-serif; 	margin: 0;
+	padding: 0; height: 100%;}
+
+#book{
+    margin: 0 auto;
+    position: relative;
+	min-height: 100%;
+    width: 800px;
+	background: url("/img/van_big.png") no-repeat scroll 0 0 #79a3d3;
+	background-position:bottom; 
+ }
+
+#logo{margin-left:477px;padding-top:20px;}
+
+
+.van {
+ height: auto;
+ position: absolute;
+ left: 0px;
+ bottom: 0px;
+ padding: 0px;
+} 
+
+.acleft {
+	width: 460px;
+	position: relative;
+	float: left;
+}
+
+.acright {
+	width: 300px;
+	position: relative;
+	float: left;
+}
+.acbuttondefil {
+	width: 50px;
+	position: relative;
+	float: left;
+}
+
+
+#accordion  {
+  margin: 20px 20px 20px;
+  max-width: 760px;
+}
+#accordion H2 {
+background: #6B7B95;
+color: white;
+cursor: pointer;
+font: 12px Helvetica, Arial, sans-serif;
+line-height: 16px;
+margin: 0 0 4px 0;
+padding: 3px 5px 1px;
+}
+#accordion .content {
+background-color: #F4F5F5;
+}
+#accordion .content p {
+margin: 0.5em 0;
+padding: 0 6px 8px 6px;
+}
